@@ -1,5 +1,7 @@
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui" {
+  themes: all;
+};
 /* Note: You may need to change the path to fit your project structure */
 @source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
 @custom-variant dark (&:is(.dark *));
@@ -24,36 +26,31 @@
     url("https://db.onlinewebfonts.com/t/2fda806ea29775a898203e25f1836740.svg#Reno Mono")format("svg");
 }
 
+@font-face {
+    font-family: "Cairo ExtraLight";
+    src: url("https://db.onlinewebfonts.com/t/02b44bbba892452dde37e23a512337b6.eot");
+    src: url("https://db.onlinewebfonts.com/t/02b44bbba892452dde37e23a512337b6.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/02b44bbba892452dde37e23a512337b6.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/02b44bbba892452dde37e23a512337b6.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/02b44bbba892452dde37e23a512337b6.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/02b44bbba892452dde37e23a512337b6.svg#Cairo ExtraLight")format("svg");
+}
+
+@font-face {
+    font-family: "Space Mono";
+    src: url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.eot");
+    src: url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.svg#Space Mono")format("svg");
+}
+
+
 :root {
   --font-input: 'InputMono', monospace;
   --font-reno: 'Reno Mono', monospace;
 }
-
-
-[data-theme="night"] {
-  --primary: #661ae6;
-  --secondary: #d926aa;
-}
-
-
-@theme {  
-  --font-mono: "Space Mono", sans-serif; 
-  --font-geist-sans: Arial, Helvetica, sans-serif;
-  --font-geist-mono: "Space Mono", monospace;
-  --background: #f0f0f0;
-  --foreground: #333333;
-  --primary: #661ae6;
-  --secondary: #d926aa;
-  --accent: #fbbf24;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -61,7 +58,7 @@ body {
 
 /* styles/connectButton.css */
 .custom-connect-button button {
-  background: linear-gradient(135deg, #a3e635 0%, #65a30d 100%) !important;
+  background: linear-gradient(135deg, #08b8e4 0%, #81e9fc 100%) !important;
   color: #000 !important;
   font-weight: 600 !important;
   border-radius: 12px !important;
@@ -70,7 +67,7 @@ body {
 }
 
 .custom-connect-button button:hover {
-  background: linear-gradient(135deg, #84cc16 0%, #4d7c0f 100%) !important;
+  background: linear-gradient(135deg, #687fe2 0%, #067394 100%) !important;
   transform: translateY(-1px) !important;
   box-shadow: 0 4px 12px rgba(163, 230, 53, 0.25) !important;
 }
@@ -110,3 +107,6 @@ body {
 .custom-connect-button .rainbow-kit-connect-button__menu-item:hover {
   background: rgba(163, 230, 53, 0.1) !important;
 }
+
+
+
