@@ -293,7 +293,7 @@ export default function AvatarTable() {
                   </div>
                 </div>
                 
-                <button style={{ fontFamily: "Space Mono" }} className="btn btn-block mt-6 bg-[#e9d3ae] text-[#8b5a2b] border-none hover:bg-[#d4b98a]">
+                <button style={{ fontFamily: "Space Mono" }} className="btn btn-block rounded-3xl mt-6 bg-[#e9d3ae] text-[#8b5a2b] border-none hover:bg-[#d4b98a]">
                   Contact {selectedUser.name.split(' ')[0]}
                 </button>
               </div>

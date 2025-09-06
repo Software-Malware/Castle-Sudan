@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ActiveFooter from "@/components/activefooter";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "Castle Sudan - Premium Quality Products & Services",
@@ -15,13 +16,13 @@ export const metadata: Metadata = {
     siteName: "Castle Sudan",
     images: [
       {
-        url: "https://castel-sudan.vercel.app/og-image.jpg", // Recommended: 1200x630px
+        url: "https://castel-sudan.vercel.app/favicon.ico", // Recommended: 1200x630px
         width: 1200,
         height: 630,
         alt: "Castle Sudan - Premium Quality Products and Services",
       },
       {
-        url: "https://castel-sudan.vercel.app/og-image-alt.jpg", // Additional image
+        url: "https://castel-sudan.vercel.app/favicon.ico", // Additional image
         width: 800,
         height: 600,
         alt: "Castle Sudan - Excellence in Every Offering",
@@ -29,8 +30,8 @@ export const metadata: Metadata = {
     ],
     locale: "en_US",
     type: "website",
-    emails: ["info@castlesudan.com", "contact@castlesudan.com"], // Optional email contacts
-    phoneNumbers: ["+249123456789", "+249987654321"], // Optional phone numbers
+    emails: ["defenshi989@gmail.com", "defenshi989@gmail.com"], // Optional email contacts
+    phoneNumbers: ["+249918946937", "+249918946937"], // Optional phone numbers
   },
 
   // Twitter Card
@@ -38,9 +39,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Castle Sudan - Premium Quality Products & Services",
     description: "Discover premium quality products and services from Castle Sudan. Experience excellence in every offering.",
-    images: ["https://castel-sudan.vercel.app/twitter-image.jpg"], // Recommended: 1200x628px
-    creator: "@castlesudan",
-    site: "@castlesudan",
+    images: ["https://castel-sudan.vercel.app/favicon.ico"], // Recommended: 1200x628px
+    creator: "@CastleSudan",
+    site: "@CastleSudan",
   },
 
   // Additional metadata
@@ -79,15 +80,15 @@ export const metadata: Metadata = {
   
   // Social Media Profiles
   other: {
-    "facebook:url": "https://www.facebook.com/dafe.nshi.9/posts/pfbid079YGotYABXQ2pLo3WzWRxpeiGf8bRp4VnaxvjHAShuB7Tqm6hsEsYjveBFbSGNGJl",
-    "facebook:app_id": "1FxbJFduMH",
-    "facebook:profile_id": "castlesudan",
+    "facebook:url": "https://www.facebook.com/",
+    "facebook:app_id": "pfbid079YGotYABXQ2pLo3WzWRxpeiGf8bRp4VnaxvjHAShuB7Tqm6hsEsYjveBFbSGNGJl",
+    "facebook:profile_id": "dafe.nshi.9",
     
 
-    "twitter:url": "https://twitter.com/castlesudan",
+    "twitter:url": "https://x.com/Hackathon3301?t=S67TMqSCfXO5LJ9HxYef_A&s=09",
 
     // GitHub repository
-    "github:url": "https://github.com/Software-Malware",
+    "github:url": "https://github.com/Software-Malware/Castle-Sudan",
     
     // Business information
     "business:contact_data:street_address": "123 Business District",
@@ -112,10 +113,10 @@ const jsonLd = {
   '@type': 'Organization',
   'name': 'Castle Sudan',
   'url': 'https://castel-sudan.vercel.app',
-  'logo': 'https://castel-sudan.vercel.app/logo.png',
+  'logo': 'https://castel-sudan.vercel.app/favicon.ico',
   'description': 'Premium Quality Products and Services from Sudan',
   'address': {
-    '@type': 'PostalAddress',
+    '@type': 'Castle Sudan',
     'streetAddress': '123 Business District',
     'addressLocality': 'Khartoum',
     'addressRegion': 'KH',
@@ -145,11 +146,11 @@ export default async function RootLayout({
       <head>
         {/* Favicon and additional meta tags */}
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="mask-icon" href="/favicon.ico" color="#5bbad5" />
         
         {/* Canonical URL */}
         <link rel="canonical" href="https://castel-sudan.vercel.app" />
@@ -178,6 +179,7 @@ export default async function RootLayout({
         <meta name="ICBM" content="15.5007, 32.5599" />
       </head>
       <body>
+      <SpeedInsights />
         {children}
         <ActiveFooter />
       </body>

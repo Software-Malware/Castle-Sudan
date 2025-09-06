@@ -4,6 +4,16 @@ module.exports = {
       fontFamily: {
         input: 'var(--font-input)',
         reno: 'var(--font-reno)',
+        juicebox: [
+        'ui-monospace',
+        'SFMono-Regular',
+        'Menlo',
+        'Monaco',
+        'Consolas',
+        'Liberation Mono',
+        'Courier New',
+        'monospace',
+      ],
       },
     },
   },

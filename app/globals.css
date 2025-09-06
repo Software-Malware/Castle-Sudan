@@ -17,13 +17,24 @@
 }
 
 @font-face {
+    font-family: "Juicebox";
+    src: url("https://db.onlinewebfonts.com/t/2be8a85eca9827df53473c69692fac8d.eot");
+    src: url("https://db.onlinewebfonts.com/t/2be8a85eca9827df53473c69692fac8d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2be8a85eca9827df53473c69692fac8d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2be8a85eca9827df53473c69692fac8d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/2be8a85eca9827df53473c69692fac8d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2be8a85eca9827df53473c69692fac8d.svg#Juicebox")format("svg");
+}
+
+
+@font-face {
     font-family: "Reno Mono";
-    src: url("https://db.onlinewebfonts.com/t/2fda806ea29775a898203e25f1836740.eot");
-    src: url("https://db.onlinewebfonts.com/t/2fda806ea29775a898203e25f1836740.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/2fda806ea29775a898203e25f1836740.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/2fda806ea29775a898203e25f1836740.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/2fda806ea29775a898203e25f1836740.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/2fda806ea29775a898203e25f1836740.svg#Reno Mono")format("svg");
+    src: url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.eot");
+    src: url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.svg#Space Mono")format("svg"),
 }
 
 @font-face {
@@ -44,6 +55,26 @@
     url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.woff")format("woff"),
     url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/29d7f13cb8d03e4bddff2eecdc7d2ff2.svg#Space Mono")format("svg");
+}
+
+@font-face {
+    font-family: "SF Mono Regular";
+    src: url("https://db.onlinewebfonts.com/t/c8da3c58be0ab862c24357279216fe05.eot");
+    src: url("https://db.onlinewebfonts.com/t/c8da3c58be0ab862c24357279216fe05.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c8da3c58be0ab862c24357279216fe05.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c8da3c58be0ab862c24357279216fe05.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c8da3c58be0ab862c24357279216fe05.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c8da3c58be0ab862c24357279216fe05.svg#SF Mono Regular")format("svg");
+}
+
+@font-face {
+    font-family: "Menlo Bold";
+    src: url("https://db.onlinewebfonts.com/t/a6ffc5d72a96b65159e710ea6d258ba4.eot");
+    src: url("https://db.onlinewebfonts.com/t/a6ffc5d72a96b65159e710ea6d258ba4.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a6ffc5d72a96b65159e710ea6d258ba4.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a6ffc5d72a96b65159e710ea6d258ba4.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a6ffc5d72a96b65159e710ea6d258ba4.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a6ffc5d72a96b65159e710ea6d258ba4.svg#Menlo Bold")format("svg");
 }
 
 

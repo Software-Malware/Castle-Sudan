@@ -1,6 +1,9 @@
 import Footer from "@/components/footer";
 import AnimatedCard from "@/components/ui/Card";
 import Table from "@/components/table";
+import Price from "@/components/price";
+
+
 export default function Home() {
   return (
     <div className="min-h-screen items-center justify-center bg-auto bg-no-repeat">
@@ -167,8 +170,9 @@ export default function Home() {
   <AnimatedCard />
  </div>
   </div>
+  <div className="bg-gradient-to-br from-[#f8e6c9] to-[#e9d3ae]">
     <Table />
-  <div data-theme="dark" className="py-15">
+    <Price />
     <Footer />
     </div>
   </div>
