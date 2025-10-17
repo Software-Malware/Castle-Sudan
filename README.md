@@ -1,8 +1,6 @@
 ## Get Start Project Castle Sudan 
 
-'''
-
-bash
+'''bash
 
 git clone https://github.com/Software-Malware/Castle-Sudan
 
@@ -14,9 +12,7 @@ yarn install
 
 ## Castle Sudan Setup ON linux And Windows 
 
-''' 
-
-bash 
+'''bash 
 
 yarn dev
 
