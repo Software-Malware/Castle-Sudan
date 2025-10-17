@@ -16,6 +16,10 @@ yarn install
 
 yarn dev
 
+yarn build 
+
+yarn start 
+
 ```
 
 ![Image](./public/main.png)
