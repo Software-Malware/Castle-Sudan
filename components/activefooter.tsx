@@ -34,7 +34,7 @@ const ActiveFooter = () => {
   if (!isMounted) return null;
 
   return (
-    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-4xl" ref={footerRef}>
+    <div className="lg:fixed lg:bottom-4 lg:w-[calc(100%-2rem)] fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-4xl" ref={footerRef}>
       {/* Main Footer Card */}
       <div className={`
         relative bg-gradient-to-br from-[#e9d3ae]/90 to-[#d4b98a]/80 
@@ -71,7 +71,7 @@ const ActiveFooter = () => {
                 style={{ fontFamily: "Space Mono" }} 
                 className="text-sm sm:text-base md:text-lg text-[#5c3e1f] font-medium group-hover:scale-105 transition-transform duration-300"
               >
-                 <span className='underline decoration-[#8b5a2b]/60'>fork me</span>
+                 <span className='underline decoration-[#8b5a2b]/60'></span>
               </p>
             </div>
             

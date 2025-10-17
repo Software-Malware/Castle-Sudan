@@ -1,10 +1,20 @@
 import Footer from "@/components/footer";
 import AnimatedCard from "@/components/ui/Card";
 import Table from "@/components/table";
-import Price from "@/components/price";
+import About from "@/components/about";
+import CTFChallenge from "@/components/challange";
+
+interface ApiResponse {
+  data: string[];
+  message: string;
+  success: boolean;
+  timestamp: string;
+}
 
 
 export default function Home() {
+
+
   return (
     <div className="min-h-screen items-center justify-center bg-auto bg-no-repeat">
       <div className="w-full overflow-hidden shadow-2xl">
@@ -172,7 +182,8 @@ export default function Home() {
   </div>
   <div className="bg-gradient-to-br from-[#f8e6c9] to-[#e9d3ae]">
     <Table />
-    <Price />
+    <About />
+    <CTFChallenge />
     <Footer />
     </div>
   </div>

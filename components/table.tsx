@@ -110,6 +110,7 @@ export default function AvatarTable() {
   };
 
   return (
+    <div className='bg-gradient-to-br from-[#f8e6c9] to-[#e9d3ae]'>
     <div className="min-h-screen py-15 bg-gradient-to-br from-[#f8e6c9] to-[#e9d3ae]  px-4 sm:px-6 lg:px-8 p-4 md:p-8 flex flex-col items-center justify-center">
       <div className="w-full max-w-6xl flex flex-col md:flex-row gap-6">
         {/* First Card (Main Table) */}
@@ -315,5 +316,6 @@ export default function AvatarTable() {
         </div>
       </div>
     </div>
+        </div>
   );
 }
